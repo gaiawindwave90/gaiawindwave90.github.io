@@ -1,0 +1,2 @@
+document.getElementById("navi2").innerHTML =
+"<h3><img alt='Links' src='images/toolbars/links.png'></h3><a href='https://www.facebook.com/ParaParaRevolution90'>FaceBook</a><br><a href='https://twitter.com/maebug9031'>Twitter</a><br><a href='https://youtube.com/user/KrisTheMew'>YouTube</a><br><a href='crystalfranks18@hotmail.com'>Email</a>";
