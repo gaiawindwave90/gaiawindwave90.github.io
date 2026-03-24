@@ -33,34 +33,39 @@ blockIconURI: "data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHR
           opcode: 'currentDate',
           blockType: Scratch.BlockType.REPORTER,
           text: 'Current date',
-          disablemonitor: true,
+          disableMonitor: true,
         },
         {
           opcode: 'isOnline',
           blockType: Scratch.BlockType.BOOLEAN,
           text: 'Online?',
+          disableMonitor: true,
         },
         {
           opcode: 'cookiesEnabled',
           blockType: Scratch.BlockType.BOOLEAN,
           text: 'Cookies enabled?',
+          disableMonitor: true,
         },
         {
           opcode: 'hostname',
           blockType: Scratch.BlockType.REPORTER,
           text: 'Hostname',
+          disableMonitor: true,
         },
         {
           opcode: 'isWindowClosed',
           blockType: Scratch.BlockType.BOOLEAN,
           text: 'is window closed?',
+          disableMonitor: true,
         },
 		{
             opcode: "closeTabDisabled",
             blockType: Scratch.BlockType.BOOLEAN,
             text: "closing tab enabled without asking?",
+            disableMonitor: true,
         },
-		/////lol
+		/////lols
       ],
     };
   }
