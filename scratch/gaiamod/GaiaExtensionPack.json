@@ -1,11 +1,24 @@
-{
-    "name":"GaiaMod",
-    "extensions":{
-        "Gaia Blocks": {
-        "url": "GaiaBlocks.js",
-        "banner": "gaiablocks.png",
-		"description": "Wonderful utility blocks! Modified by <a href='https://codetorch.net/en/users/MB1990'>Gaia</a>"
-        "tags": "all, Gaia, advanced"
-        }
+[
+  {
+    "name": "Gaia Blocks",
+    "description": "Wonderful utility blocks! Modified by <a href='https://codetorch.net/en/users/MB1990'>Gaia</a>",
+    "url": "https://raw.githubusercontent.com/gaiawindwave90/Gaia-Zone/refs/heads/main/scratch/gaiamod/GaiaBlocks.js",
+    "thumb": "https://github.com/gaiawindwave90/Gaia-Zone/blob/main/scratch/gaiamod/gaiablocks.png?raw=true",
+    "recommended": true,
+    "legendary": true
+    },
+  {
+    "name": "Toast Notifications",
+    "description": "Did you want alerts? Notifications that are easily customizable? This is the only and best notification extension! Created by <a href='https://github.com/cicerorph/'>MubiLop</a>.",
+    "url": "https://extensions.penguinmod.com/extensions/MubiLop/toastnotifs.js",
+    "thumb": "https://extensions.penguinmod.com/images/MubiLop/toastnotifs.avif",
+    "recommended": true
+    },
+  {
+    "name": "Toast Notifications",
+    "description": "Access the raw functions from other extensions. Created by <a href='https://github.com/TheShovel/'>TheShovel</a>.",
+    "url": "https://extensions.penguinmod.com/extensions/TheShovel/extexp.js",
+    "thumb": "https://extensions.penguinmod.com/images/TheShovel/placeholder-extexp.avif",
+    "recommended": true
     }
-}
+]
