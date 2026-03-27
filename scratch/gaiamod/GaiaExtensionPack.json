@@ -25,13 +25,38 @@
     "name": "Extension Exposer",
     "description": "Access the raw functions from other extensions. Created by TheShovel.",
     "url": "https://extensions.penguinmod.com/extensions/TheShovel/extexp.js",
-    "thumb": "https://extensions.penguinmod.com/images/TheShovel/placeholder-extexp.avif"
+    "thumb": "https://github.com/Dinosaurmod/javascript/blob/0fcc96046f134292d6f44180947b34d6dfa97128/src/lib/libraries/extensions/penguinmod/extensions/placeholder.png?raw=true"
     },
   {
     "name": "Speech to Text",
     "description": "Talk to your projects. Not exactly the same as the Scratch one. Created by Sayamindu.",
     "url": "https://sayamindu.github.io/scratch-extensions/speech_to_text_extension.js'",
-    "thumb": "https://extensions.penguinmod.com/images/TheShovel/placeholder-extexp.avif"
+    "thumb": "https://github.com/Dinosaurmod/javascript/blob/0fcc96046f134292d6f44180947b34d6dfa97128/src/lib/libraries/extensions/penguinmod/extensions/placeholder.png?raw=true"
+    },
+  {
+    "name": "Project Interfaces",
+    "description": "Effortlessly create intuitive graphical user interfaces in your projects. Created by Lord cat. Gallery banner by Dillon.",
+    "url": "https://extensions.penguinmod.com/extensions/LordCat0/ProjectInterfaces.js",
+    "thumb": "https://extensions.penguinmod.com/images/LordCat0/ProjectInterfaces.avif"
+    },
+  {
+    "name": "More Fields",
+    "description": "Custom Field Types. Created by yuri-kiss.",
+    "url": "https://extensions.penguinmod.com/extensions/Ashime/MoreFields.js",
+    "thumb": "https://extensions.penguinmod.com/images/0znzw/MoreFields.avif"
+    },
+  {
+    "name": "Fire in the Hole!",
+    "description": "This joke is not funny anymore. Made by JeremyGamer13.",
+    "url": "https://extensions.penguinmod.com/extensions/JeremyGamer13/FireInTheHole.js",
+    "thumb": "https://library.penguinmod.com/files/emojis/cluelesssmile.png",
+     "legendary": true
+    },
+  {
+    "name": "Easy Save",
+    "description": "Save variables, lists and extra info to a file, then load those things back in.",
+    "url": "https://github.com/Dinosaurmod/DinosaurMod-Vm/raw/b69e6ba9a806fa36a4c5c5617ce369ffaf70a72f/src/extensions/jg_easySave/index.js",
+    "thumb": "https://github.com/Dinosaurmod/javascript/blob/0fcc96046f134292d6f44180947b34d6dfa97128/src/lib/libraries/extensions/penguinmod/extensions/placeholder.png?raw=true"
     },
   {
     "name": "GitHub API",
