@@ -1,7 +1,7 @@
 [
   {
     "name": "Gaia Blocks",
-    "description": "Wonderful utility blocks! Modified by <a href='https://codetorch.net/en/users/MB1990'>Gaia</a>",
+    "description": "Wonderful utility blocks! Modified by Gaia.",
     "url": "https://raw.githubusercontent.com/gaiawindwave90/Gaia-Zone/refs/heads/main/scratch/gaiamod/GaiaBlocks.js",
     "thumb": "https://github.com/gaiawindwave90/Gaia-Zone/blob/main/scratch/gaiamod/gaiablocks.png?raw=true",
     "recommended": true,
@@ -9,16 +9,34 @@
     },
   {
     "name": "Toast Notifications",
-    "description": "Did you want alerts? Notifications that are easily customizable? This is the only and best notification extension! Created by <a href='https://github.com/cicerorph/'>MubiLop</a>.",
+    "description": "Did you want alerts? Notifications that are easily customizable? This is the only and best notification extension! Created by MubiLop.",
     "url": "https://extensions.penguinmod.com/extensions/MubiLop/toastnotifs.js",
     "thumb": "https://extensions.penguinmod.com/images/MubiLop/toastnotifs.avif",
     "recommended": true
     },
   {
-    "name": "Toast Notifications",
-    "description": "Access the raw functions from other extensions. Created by <a href='https://github.com/TheShovel/'>TheShovel</a>.",
-    "url": "https://extensions.penguinmod.com/extensions/TheShovel/extexp.js",
-    "thumb": "https://extensions.penguinmod.com/images/TheShovel/placeholder-extexp.avif",
+    "name": "Site Runtime",
+    "description": "A Combined version of multiple extensions: Packager Applications & AdaBrowser. Originally found on DinosaurMod.",
+    "url": "https://gabsthecuriouskid.github.io/DinosaurModExtensions/extensions/webextension.js",
+    "thumb": "https://gabsthecuriouskid.github.io/DinosaurModExtensions/images/site-runtime.png",
     "recommended": true
+    },
+  {
+    "name": "Extension Exposer",
+    "description": "Access the raw functions from other extensions. Created by TheShovel.",
+    "url": "https://extensions.penguinmod.com/extensions/TheShovel/extexp.js",
+    "thumb": "https://extensions.penguinmod.com/images/TheShovel/placeholder-extexp.avif"
+    },
+  {
+    "name": "Speech to Text",
+    "description": "Talk to your projects. Not exactly the same as the Scratch one. Created by Sayamindu.",
+    "url": "https://sayamindu.github.io/scratch-extensions/speech_to_text_extension.js'",
+    "thumb": "https://extensions.penguinmod.com/images/TheShovel/placeholder-extexp.avif"
+    },
+  {
+    "name": "GitHub API",
+    "description": "Fetch IDs, Description, etc. from Repositories, Users and Organizations. Originally found on DinosaurMod.",
+    "url": "https://gabsthecuriouskid.github.io/DinosaurModExtensions/extensions/github-api.js",
+    "thumb": "https://gabsthecuriouskid.github.io/DinosaurModExtensions/images/githubapi.png"
     }
 ]
