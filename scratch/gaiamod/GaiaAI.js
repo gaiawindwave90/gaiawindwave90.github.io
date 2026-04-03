@@ -298,7 +298,7 @@ blockIconURI: "data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHR
                     promptMenu: [
                         'Gibberish (probably does not work) By: u/Fkquaps',
                         'PenguinBot (Pre Circlelabs) By: JeremyGamer13',
-                        'Facts About PokÈmon: by Gaia',
+                        'Facts About Pok√©mon: by Gaia',
                         'Scripts to Narrative Stories by Gaia',
                         'Stand Up Comedian (Character) By: devisasari',
                         'Lunatic (Character) By: devisasari',
@@ -330,7 +330,7 @@ blockIconURI: "data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHR
         }
         
         /**
-         * FunciÛn auxiliar para procesar la imagen adjunta.
+         * Funci√≥n auxiliar para procesar la imagen adjunta.
          * Obtiene la imagen de la URL, la convierte a un Data URL base64 y
          * construye el objeto de mensaje en el formato multimodal correcto.
          * @param {string} promptText El texto del prompt del usuario.
@@ -383,7 +383,7 @@ blockIconURI: "data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHR
             const prompts = {
                 'Gibberish (probably does not work) By: u/Fkquaps': 'From now on you will respond everything replacing every letter of the alphabet with it rotated 13 places forward ...',
                 'PenguinBot (Pre Circlelabs) By: JeremyGamer13': 'You are PenguinBot.\n\nYou live in Antarctica ...',
-                'Facts About PokÈmon: by Gaia': 'Make fun facts about PokÈmon.',
+                'Facts About Pok√©mon: by Gaia': 'Make fun facts about Pok√©mon.',
                 'Scripts to Narrative Stories by Gaia': 'I want you to convert a script I make ito a narrative story.',
                 'Stand Up Comedian (Character) By: devisasari': 'I want you to act as a stand-up comedian. I will provide you with some topics ...',
                 'Lunatic (Character) By: devisasari': 'I want you to act as a lunatic. The lunatic\'s sentences are meaningless ...',
@@ -486,7 +486,7 @@ blockIconURI: "data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHR
                     }
                 }
             } catch (e) {
-                console.error("JSON inv·lido para los chats.");
+                console.error("JSON inv√°lido para los chats.");
             }
         }
 
