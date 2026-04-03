@@ -60,11 +60,33 @@ blockIconURI: "data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHR
           disableMonitor: true,
         },
 		{
-            opcode: "closeTabDisabled",
+            opcode: 'closeTabDisabled',
             blockType: Scratch.BlockType.BOOLEAN,
-            text: "closing tab enabled without asking?",
+            text: 'closing tab enabled without asking?',
             disableMonitor: true,
         },
+          {
+            opcode: 'loadExtension',
+            blockType: Scratch.BlockType.COMMAND,
+            text: 'load an extension from [TEXT]',
+            arguments: {
+              TEXT: {
+                type: Scratch.ArgumentType.STRING,
+                defaultValue: "https://extensions.turbowarp.org/utilities.js",
+              },
+            },
+          },
+          {
+            opcode: "restartProject",
+            blockType: Scratch.BlockType.COMMAND,
+            text: 'restart a project',
+            arguments: {
+              TEXT: {
+                type: Scratch.ArgumentType.STRING,
+                defaultValue: "0",
+              },
+            },
+          },
 		/////lols
       ],
     };
@@ -111,6 +133,15 @@ blockIconURI: "data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHR
    closeTabDisabled() {
             return CloseTabDisabled;
    }
+    restartProject() {
+      vm.greenFlag();
+    }
+
+    async loadExtension({ TEXT }) {
+      if (await vm.securityManager.canLoadExtensionFromProject(TEXT)) {
+        vm.extensionManager.loadExtensionURL(TEXT);
+      }
+    }
 }
     Scratch.extensions.register(new GaiaBlocks(Scratch.vm.runtime));
 })(Scratch);
