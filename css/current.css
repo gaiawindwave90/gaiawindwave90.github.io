@@ -87,6 +87,20 @@
             background-color: transparent;
             transform: scale(1); /* Return to regular size when not hovered */
         }
+		
+        li #VImage img {
+            transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+        }
+
+        #VImage img:hover {
+            background-color: transparent;
+            transform: scale(1.1);
+        }
+
+        #VImage img:not(:hover) {
+            background-color: transparent;
+            transform: scale(1); /* Return to regular size when not hovered */
+        }
 
         footer {
             background-color: #ccc;
