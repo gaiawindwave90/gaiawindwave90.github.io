@@ -1,5 +1,13 @@
 /* Copied from ElectraMod or Snail-IDE BRUH! */
+.bounce-animation {
+    width: 255px;
+    margin: 50px auto 0px;
+}
+
 .bounce-animation img {
+    display: block;
+    position: relative;
+    margin-top: -4px;
     animation-name: bouncing;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
