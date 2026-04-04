@@ -210,3 +210,32 @@
 .section-info.dark-mode {
     background: #1429C7;
 }
+
+
+.footer {
+    background-color: rgb(225, 255, 225);
+    color: black;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer.dark-mode {
+    background-color: #333333;
+    color: white;
+}
+
+.footer-row {
+    margin-bottom: 10px;
+    width: 100%;
+    flex: 0 0 20%;
+}
+
+.footer-row a {
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 5px;
+}
