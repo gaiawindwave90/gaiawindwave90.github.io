@@ -1,4 +1,4 @@
-export const msg = [
+const msg = [
     "Even the stars will fly out, should the world can be doomed?",
     "Heavens are always upon us!",
     "Only 60% of people are aware of the autists' habits of running around in circles.",
@@ -55,3 +55,7 @@ export const msg = [
     "Remember, kids! It's a surpreme law of physics written by a furry member. I prefer not to give a shout-out.<br>FINISH THEM!"
     "🎵Boom boom boom boom<br>He's driving in my room<br>Driving cars forever and running now and ever<br>Boom boom boom boom<br>He wants to double boom<br>Bumping cars forever, and he's driving in my room🎵"
 ]
+
+	window.onload = function () {
+		document.getElementById("random").innerHTML = msg[Math.round(Math.random() * msg.length)];
+	}
