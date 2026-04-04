@@ -65,5 +65,5 @@ msg[62] = "“I'd rather watch Wenda dance underwater...”";
 msg[63] = "“🎵Boom boom boom boom<br>He's driving in my room<br>Driving cars forever and running now and ever<br>Boom boom boom boom<br>He wants to double boom<br>Bumping cars forever, and he's driving in my room🎵”";
 
 	window.onload = function () {
-		document.getElementById("random").innerHTML = msg[Math.round(Math.random() * msg.length)];
+		document.getElementById("random").innerHTML = msg[Math.floor(Math.random()*msg.length)];
 	}
