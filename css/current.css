@@ -74,7 +74,7 @@
         }
 
         li #IconImage img {
-            width: 60px;
+            width: 100%;
             vertical-align: middle; /* Align the image vertically */
             transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
         }
