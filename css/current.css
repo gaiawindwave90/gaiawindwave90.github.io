@@ -235,6 +235,14 @@
 }
 
 .footer-row a {
+    color: var(--motion-primary);
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-row a.dark-mode {
+    color: var(--motion-primary-dark);
     text-decoration: underline;
     display: block;
     margin-bottom: 5px;
