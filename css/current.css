@@ -160,7 +160,7 @@
 		
 		.section-info {
     margin-top: 60px;
-    background: #9cfc47;
+    background: #4762FC;
     color: #fff;
     padding: 100px 20px;
     text-align: center;
@@ -196,5 +196,5 @@
 }
 
 .section-info.dark-mode {
-    background: #68c714;
+    background: #1429C7;
 }
