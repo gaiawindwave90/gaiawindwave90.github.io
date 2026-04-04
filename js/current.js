@@ -47,17 +47,32 @@ $(document).ready(function(){
                 }
             });
 
-            const checkAndApplyAprilFools = () => {
-				// check local date or test params
-				const date = new Date(Date.now());
-				const urlParams = new URLSearchParams(location.search);
-				const isAprilFools = date.getMonth() === 3 && date.getDate() === 1; // month is 0 indexed for literally no reason
-				const runningLocal = String(urlParams.get('forceaprilfools')) === 'true';
-				window._isAprilFools = isAprilFools || runningLocal;
-				if (isAprilFools || runningLocal) {
-					body.classList.add("april-fools");
-				}
-			};
+function openPicture(pictureName) {
+  var i;
+  var x = document.getElementsByClassName("picture");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(pictureName).style.display = "block";  
+}
+
+function openVideo(videoName) {
+  var i;
+  var x = document.getElementsByClassName("video");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(videoName).style.display = "block";  
+}
+
+function openSecrets(secretName) {
+  var i;
+  var x = document.getElementsByClassName("secret");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(secretName).style.display = "block";  
+}
             /*
             $.get("https://api.github.com/repos/gaiawindwave90/Gaia-Zone/commits", function(data) {
             // Display recent commits in a section

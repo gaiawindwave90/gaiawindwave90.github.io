@@ -1,2 +1,0 @@
-document.getElementById("footer").innerHTML =
-"<p>&copy;  " + new Date().getFullYear() + " Miracle Star. This website was owned by me. Credit to Serebii who lets me to borrow his templates from his website.</p>";
