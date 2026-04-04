@@ -76,7 +76,7 @@ function openSecrets(secretName) {
   }
   document.getElementById(secretName).style.display = "block";  
 }
-
+            /*
             $.get("https://api.github.com/repos/gaiawindwave90/Gaia-Zone/commits", function(data) {
             // Display recent commits in a section
             var commitsSection = $("#recentCommits");
@@ -97,4 +97,9 @@ function openSecrets(secretName) {
             commitsSection.append(commitsList);
             
           });
-
+          <div id="recentCommits">
+            <h2>Recent Commits</h2>
+            <ul></ul>
+          </div>
+          */
+        });
