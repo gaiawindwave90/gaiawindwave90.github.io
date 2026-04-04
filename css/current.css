@@ -212,6 +212,43 @@
 }
 
 
+.content {
+    background-color: #B8C4FA;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content.dark-mode {
+    background-color: #1A3FE8;
+    color: white;
+}
+
+.content-row {
+    margin-bottom: 10px;
+    width: 100%;
+    flex: 0 0 20%;
+}
+
+.content-row a {
+    color: var(--motion-primary);
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.content-row a.dark-mode {
+    color: var(--motion-primary-dark);
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
 .footer {
     background-color: rgb(225, 255, 225);
     color: black;
