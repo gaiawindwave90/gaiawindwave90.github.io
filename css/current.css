@@ -260,6 +260,10 @@
     margin: 0px;
 }
 
+.sectionLinks .dark-mode {
+    background: #435CD1;
+}
+
 .sectionInfoButton {
     margin: 0.25rem;
     padding: 1rem 1rem;
