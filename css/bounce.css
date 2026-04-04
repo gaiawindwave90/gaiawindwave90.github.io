@@ -1,8 +1,5 @@
 /* Copied from ElectraMod or Snail-IDE BRUH! */
 .block-animation img {
-    display: block;
-    position: relative;
-    margin-top: -4px;
     animation-name: bouncing;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
