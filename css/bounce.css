@@ -1,10 +1,11 @@
 /* Copied from ElectraMod or Snail-IDE BRUH! */
-.bounce-animation {
-    width: 255px;
+.block-animation {
+    width: 125px;
+    height: 150px;
     margin: 50px auto 0px;
 }
 
-.bounce-animation img {
+.block-animation img {
     display: block;
     position: relative;
     margin-top: -4px;
