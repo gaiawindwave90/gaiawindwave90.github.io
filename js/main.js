@@ -1,3 +1,37 @@
+        // Get the current date
+        const today = new Date();
+
+        // Define an array of month names
+        const monthNames = [
+            "January", "February", "March", "April", "May", "June",
+            "July", "August", "September", "October", "November", "December"
+        ];
+        
+        // Get the month name (using getMonth() which returns 0-11)
+        const month = monthNames[today.getMonth()];
+
+        // Get the day of the month
+        const day = today.getDate();
+        
+      const year = today.getFullYear();
+
+        // Format the date string
+        const formattedDate = `${month} ${day}, ${year}`;
+
+        // Get the HTML element where the date will be displayed
+        const dateElement = document.getElementById('currentDate');
+
+        // Update the content of the HTML element
+        dateElement.textContent = formattedDate;
+
+setInterval(myTimer);
+
+function myTimer() {
+  const d = new Date();
+  document.getElementById("time").innerHTML = d.toLocaleTimeString();
+}
+
+
 const themeToggle = document.getElementById('theme-toggle');
 const htmlElement = document.documentElement;
 

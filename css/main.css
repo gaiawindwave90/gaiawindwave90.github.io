@@ -1,11 +1,29 @@
-.body { 
-	  background-color: var(--bs-body-bg); /* ??? */
-    color: var(--bs-emphasis-color);
+:root {
+	 --gaiacolor:hsla(240, 65%, 50%, 1);
+	 --gaiacolor-secondary:hsla(240, 65%, 55%, 1);
+	 --gaiacolor-tertiary:hsla(240, 65%, 60%, 1);
+	 --bg-color:#ffffff;
+	 --text-color:#111111;
+	 --footer-bg:#CFCFCF;
+	 --footer-color:#000000;
+	 --theme-image:url('https://raw.githubusercontent.com/ElectraMod/ElectraMod-Home/ee8edc1664e6b313438ff4ffd3271788ec81e9d8/static/moon.svg');
+  /* Add other variables */
+}
 
-  }
-  
-    .bg-menu { 
-    background-color: var(--bs-gaiacolor); /* ??? */
+[data-bs-theme="dark"] {
+	 --gaiacolor:hsla(240, 65%, 40%, 1);
+	 --gaiacolor-secondary:hsla(240, 65%, 50%, 1);
+	 --gaiacolor-tertiary:hsla(240, 65%, 55%, 1);
+	 --bg-color:#111111;
+	 --text-color:#ffffff;
+	 --footer-bg:#333333;
+	 --footer-color:#ffffff;
+     --theme-image:url('https://raw.githubusercontent.com/ElectraMod/ElectraMod-Home/ee8edc1664e6b313438ff4ffd3271788ec81e9d8/static/sun.svg');
+  /* Override variables */
+}
+
+   .bg-menu { 
+    background-color: var(--gaiacolor); /* ??? */
     color: white;
   }
   
@@ -18,8 +36,19 @@
   }
   
     .bg-jumbotron { 
-    background-color: var(--bs-gaiacolor-secondary); /* ??? */
+    background-color: var(--gaiacolor-secondary); /* ??? */
     color: #ffffff;
+  }
+  
+     .bg-menu { 
+    background-color: var(--gaiacolor); /* ??? */
+    color: white;
+  }
+  
+  
+   #theme-toggle::before {
+  content: var(--theme-image);
+  color: white;
   }
     
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
@@ -33,15 +62,15 @@
     
     /* Set black background color, white text and some padding */
     footer {
-background-color: var(--bs-secondary-bg);
-    color: white;
+background-color: var(--footer-bg);
+    color: var(--footer-color);
       padding: 15px;
     }
     
     
      /* Set black background color, white text and some padding */
     .bg-section {
-    background: var(--bs-gaiacolor-tertiary);
+    background: var(--gaiacolor-tertiary);
     color: white;
     }
     
@@ -53,3 +82,8 @@ background-color: var(--bs-secondary-bg);
       }
       .row.content {height:auto;} 
     }
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
