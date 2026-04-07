@@ -22,7 +22,7 @@
   /* Override variables */
 }
 
-        * {
+        ul, li {
             list-style: none;
           }
 
