@@ -86,3 +86,20 @@ msg[53] = "“🎵Boom boom boom boom<br>He's driving in my room<br>Driving cars
 	window.onload = function () {
 		document.getElementById("random").innerHTML = msg[Math.floor(Math.random()*msg.length)];
 	}
+	
+
+const themeToggle = document.getElementById('theme-toggle');
+const htmlElement = document.documentElement;
+
+// Load stored theme
+const storedTheme = localStorage.getItem('theme') || 'light';
+htmlElement.setAttribute('data-bs-theme', storedTheme);
+
+// Toggle on button click
+themeToggle.addEventListener('click', () => {
+  const currentTheme = htmlElement.getAttribute('data-bs-theme');
+  const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+  
+  htmlElement.setAttribute('data-bs-theme', newTheme);
+  localStorage.setItem('theme', newTheme);
+});
