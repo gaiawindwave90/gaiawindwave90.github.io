@@ -103,3 +103,9 @@ themeToggle.addEventListener('click', () => {
   htmlElement.setAttribute('data-bs-theme', newTheme);
   localStorage.setItem('theme', newTheme);
 });
+
+function redirect() {
+  var searchitem = document.getElementById("search");
+  var url = "https://www.google.com/search?q=" + searchitem.value + " site:https://gaiawindwave90.github.io/Gaia-Zone/";
+  window.open(url,"");
+}
