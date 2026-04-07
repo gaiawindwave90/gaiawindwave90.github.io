@@ -22,6 +22,10 @@
   /* Override variables */
 }
 
+        * {
+            list-style: none;
+          }
+
    .bg-menu { 
     background-color: var(--gaiacolor); /* ??? */
     color: white;
