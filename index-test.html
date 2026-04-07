@@ -69,6 +69,29 @@ href="https://gaiawindwave90.github.io/Gaia-Zone/css/main.css">
     <h4 class="mt-4">Latest Commits</h4>
      <ul></ul>
     </div>
+    <script>
+//I had no hope so I stole Dinosaurmod's Github script
+            $.get("https://api.github.com/repos/gaiawindwave90/Gaia-Zone/commits", function(data) {
+            // Display recent commits in a section
+            var commitsSection = $("#recentCommits");
+            var commitsList = $("<ul>");
+
+            data.forEach(function(commit) {
+                // Exclude commits made by "web-flow"
+                if (commit.author && commit.author.login.toLowerCase() !== "web-flow") {
+                    var commitItem = $("<li>");
+                    var commitInfo = commit.author ? commit.author.login : "Unknown";
+                    var commitTitle = commit.commit.message;
+
+                    commitItem.text(commitInfo + " - " + commitTitle);
+                    commitsList.append(commitItem);
+                }
+            });
+
+            commitsSection.append(commitsList);
+            
+          });
+    </script>
     </div>
     <div class="col-sm-8"> 
  <h2 class="mt-5">TITLE HEADING</h2>

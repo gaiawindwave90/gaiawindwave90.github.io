@@ -142,25 +142,3 @@ function myTimer() {
   const d = new Date();
   document.getElementById("time").innerHTML = d.toLocaleTimeString();
 }
-
-//I had no hope so I stole Dinosaurmod's Github script
-            $.get("https://api.github.com/repos/gaiawindwave90/Gaia-Zone/commits", function(data) {
-            // Display recent commits in a section
-            var commitsSection = $("#recentCommits");
-            var commitsList = $("<ul>");
-
-            data.forEach(function(commit) {
-                // Exclude commits made by "web-flow"
-                if (commit.author && commit.author.login.toLowerCase() !== "web-flow") {
-                    var commitItem = $("<li>");
-                    var commitInfo = commit.author ? commit.author.login : "Unknown";
-                    var commitTitle = commit.commit.message;
-
-                    commitItem.text(commitInfo + " - " + commitTitle);
-                    commitsList.append(commitItem);
-                }
-            });
-
-            commitsSection.append(commitsList);
-            
-          });
