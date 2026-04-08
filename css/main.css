@@ -51,6 +51,15 @@
     color: white;
   }
   
+     .btn-gaia { 
+    background-color: var(--gaiacolor); /* ??? */
+    color: white;
+	border: 3px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
   
       .inspiration a{
     text-decoration: underline;		  
