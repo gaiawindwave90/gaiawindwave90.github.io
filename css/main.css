@@ -56,18 +56,12 @@
      .btn-gaia { 
     background-color: var(--gaiacolor-secondary); /* ??? */
     color: white;
-    margin: 0.25rem;
-    padding: 1rem 1rem;
     font-weight: 600;
     font-size: 1.1rem;
-    border: 0px;
-    border-radius: 4px;
     outline-width: 2px;
     outline-style: solid;
     outline-color: rgba(146, 239, 24, 0.35);
     cursor: pointer;
-    display: flex;
-    flex-direction: row;
     align-items: center;
   }
   
@@ -138,6 +132,7 @@ background-color: var(--footer-bg);
     cursor: pointer;
     font-size: 20px;
     margin: 20px auto 0;
+	text-decoration: none;
     }
 	
 	
