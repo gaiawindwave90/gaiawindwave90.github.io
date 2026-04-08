@@ -53,7 +53,7 @@
     color: white;
   }
   
-     .btn-gaia a { 
+     .btn-gaia { 
     background-color: var(--gaiacolor-secondary); /* ??? */
     color: white;
 	border: 3px solid #fff;
@@ -62,17 +62,12 @@
     font-size: 20px;
   }
   
-       .btn-gaia a:hover { 
+       .btn-gaia:hover { 
     background-color: var(--gaiacolor); /* ??? */
-    color: white;
-	border: 3px solid #fff;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 20px;
   }
   
   
-      .inspiration a{
+      .inspiration{
     text-decoration: underline;		  
     color: var(--link-color);
   }
