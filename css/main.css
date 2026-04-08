@@ -100,6 +100,22 @@ background-color: var(--footer-bg);
     background: var(--gaiacolor-section);
     color: white;
     }
+	
+	
+   .bg-section button {
+    background: #ffffff;
+    color: var(--gaiacolor);
+    font-weight: bold;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 20px auto 0;
+    }
+	
+	
     
     /* On small screens, set height to 'auto' for sidenav and grid */
     @media screen and (max-width: 767px) {
