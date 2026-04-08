@@ -132,6 +132,9 @@ background-color: var(--footer-bg);
     cursor: pointer;
     font-size: 20px;
     margin: 20px auto 0;
+    }
+	
+	   .bg-jumbotron button a{
 	text-decoration: none;
     }
 	
