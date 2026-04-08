@@ -4,6 +4,7 @@
 	 --gaiacolor-tertiary:hsla(240, 65%, 60%, 1);
 	 --bg-color:#ffffff;
 	 --text-color:#111111;
+	 --link-color:#ACAAEC;
 	 --footer-bg:#CFCFCF;
 	 --footer-color:#000000;
 	 --theme-image:url('https://raw.githubusercontent.com/ElectraMod/ElectraMod-Home/ee8edc1664e6b313438ff4ffd3271788ec81e9d8/static/moon.svg');
@@ -16,6 +17,7 @@
 	 --gaiacolor-tertiary:hsla(240, 65%, 55%, 1);
 	 --bg-color:#111111;
 	 --text-color:#ffffff;
+	 --link-color:#7E7BEC;
 	 --footer-bg:#333333;
 	 --footer-color:#ffffff;
      --theme-image:url('https://raw.githubusercontent.com/ElectraMod/ElectraMod-Home/ee8edc1664e6b313438ff4ffd3271788ec81e9d8/static/sun.svg');
@@ -47,6 +49,12 @@
      .bg-menu { 
     background-color: var(--gaiacolor); /* ??? */
     color: white;
+  }
+  
+  
+      .inspiration a{
+    text-decoration: underline;		  
+    color: var(--link-color);
   }
   
   
