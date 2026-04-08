@@ -2,6 +2,7 @@
 	 --gaiacolor:hsla(240, 65%, 50%, 1);
 	 --gaiacolor-secondary:hsla(240, 65%, 55%, 1);
 	 --gaiacolor-tertiary:hsla(240, 65%, 60%, 1);
+	 --gaiacolor-section:hsla(240, 65%, 65%, 1);
 	 --bg-color:#ffffff;
 	 --text-color:#111111;
 	 --link-color:#ACAAEC;
@@ -15,6 +16,7 @@
 	 --gaiacolor:hsla(240, 65%, 40%, 1);
 	 --gaiacolor-secondary:hsla(240, 65%, 50%, 1);
 	 --gaiacolor-tertiary:hsla(240, 65%, 55%, 1);
+	 --gaiacolor-section:hsla(240, 65%, 30%, 1);
 	 --bg-color:#111111;
 	 --text-color:#ffffff;
 	 --link-color:#7E7BEC;
@@ -100,7 +102,7 @@ background-color: var(--footer-bg);
     
      /* Set black background color, white text and some padding */
     .bg-section {
-    background: var(--gaiacolor-tertiary);
+    background: var(--gaiacolor-section);
     color: white;
     }
     
