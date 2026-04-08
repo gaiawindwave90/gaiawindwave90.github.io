@@ -82,6 +82,21 @@
     color: var(--link-color);
   }
   
+  .imageIcon img {
+            vertical-align: middle; /* Align the image vertically */
+            transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+        }
+		
+.imageIcon img:hover {
+            background-color: transparent;
+            transform: scale(1.1);
+        }
+  
+  .imageIcon img:not(:hover) {
+            background-color: transparent;
+            transform: scale(1); /* Return to regular size when not hovered */
+        }
+  
   
    #theme-toggle::before {
   content: var(--theme-image);
