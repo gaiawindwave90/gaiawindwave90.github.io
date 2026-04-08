@@ -106,7 +106,7 @@ background-color: var(--footer-bg);
     }
 	
 	
-   .bg-section button {
+   .bg-jumbotron button {
     background: #ffffff;
     color: var(--gaiacolor);
     font-weight: bold;

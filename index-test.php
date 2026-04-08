@@ -18,6 +18,9 @@ href="https://gaiawindwave90.github.io/Gaia-Zone/css/bounce.css">
 href="https://gaiawindwave90.github.io/Gaia-Zone/css/main.css">
 </head>
 <body>
+<noscript>
+  <h1>You must enable Javascript to view the page.</h1>
+</noscript>
 
   <nav class="navbar navbar-expand-sm bg-menu">
   <div class="container-fluid justify-content-center text-white">
@@ -26,10 +29,22 @@ href="https://gaiawindwave90.github.io/Gaia-Zone/css/main.css">
         <a class="nav-link imageIcon" href="https://gaiawindwave90.github.io/Gaia-Zone/"><img src="https://gaiawindwave90.github.io/Gaia-Zone/img/logos/logo.png" alt="logo" width="70"/></a>
       </li>
       <li class="nav-item">
+        <a class="nav-link disabled" href="#"><i class="fa fa-photo"></i>Art</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#"><i class="fa fa-book"></i>Writings</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#"><i class="fa fa-smile-o"></i>Memes</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link disabled" href="#"><i class="fa fa-superpowers"></i>Scratch Projects</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="https://gaiawindwave90.github.io/Gaia-Zone/editor.html"><i class="fa fa-plus"></i>Create on GaiaMod</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/gaiawindwave90/Gaia-Zone"><i class="fa fa-github"></i>GitHub</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="https://discord.gg/fFnNT8RGav"><i class="fa fa-star"></i>Discord Server</a>
@@ -50,11 +65,14 @@ href="https://gaiawindwave90.github.io/Gaia-Zone/css/main.css">
 <div class="p-5 bg-jumbotron text-center">
 <h2>An archive of stuff made by me, with lots of special capabilities!</h2>            
             <h2>Template inspired by <a class="inspiration" href="https://penguinmod.com/">PenguinMod</a>.</h2>
+            <button><img src="https://gaiamod-main.github.io/Gaia-Home/9230ca76d29cd26a9cb6.svg"/>Let's create!</button>
 </div>
 
 <div class="container-fluid bg-section text-center">
-  <h3>What Am I?</h3>
-  <p>Lorem ipsum..</p>
+                    <a class="btn btn-gaia" href="#">Writing-Zone</a>
+                    <a class="btn btn-gaia" href="#">Art-Zone</a>
+                    <a class="btn btn-gaia" href="#">Meme-Zone</a>
+                    <a class="btn btn-gaia" href="https://github.com/gaiawindwave90/Gaia-Zone">GitHub</a>
 </div>
 
 
@@ -98,8 +116,8 @@ href="https://gaiawindwave90.github.io/Gaia-Zone/css/main.css">
         -->
 
     </div>
+    <div class="col-sm-8">
 <h2>What's New?</h2>
-    <div class="col-sm-8"> 
  <h3 class="mt-5">TITLE HEADING</h3>
       <h5>Title description, Sep 2, 2020</h5>
       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
@@ -141,7 +159,7 @@ href="https://gaiawindwave90.github.io/Gaia-Zone/css/main.css">
 <h4>Website</h4>
                 <a href="https://gaiawindwave90.github.io/Gaia-Zone/editor.html">Editor</a> | 
                 <a class="disabled" href="#">About this site</a> | 
-                <a href="https://gaiamod-main.github.io/GaiaMod/credits.html">Credits</a> | 
+                <a href="https://gaiamod-main.github.io/GaiaMod/credits.php">Credits</a> | 
                 <a href="https://github.com/gaiawindwave90/Gaia-Zone">Source Code</a>
     </div>
     <div class="col-sm-4">
