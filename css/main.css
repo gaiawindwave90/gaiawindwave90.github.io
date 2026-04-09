@@ -28,6 +28,11 @@
   /* Override variables */
 }
 
+input { 
+    background-color: var(--gaiacolor-tertiary); /* ??? */
+    color: white;
+  }
+
         ul, li {
             list-style: none;
           }
