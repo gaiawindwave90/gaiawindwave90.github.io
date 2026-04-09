@@ -55,7 +55,7 @@ href="https://gaiawindwave90.github.io/Gaia-Zone/css/main.css">
 
    <!-- Search Form -->
     <form class="d-flex" action="javascript:redirect()" method="get">
-      <input id="search" class="form-control me-2" type="search" name="q" placeholder="Search on Google" aria-label="Search">
+      <input id="search" class="form-control me-2 searchinput" type="search" name="q" placeholder="Search on Google" aria-label="Search">
       <button class="btn btn-primary" type="submit">Search</button>
     </form>      
     </ul>
@@ -64,8 +64,9 @@ href="https://gaiawindwave90.github.io/Gaia-Zone/css/main.css">
 
 <div class="p-5 bg-jumbotron text-center">
 <h2>An archive of stuff made by me, with lots of special capabilities!</h2>            
-            <h2>Template inspired by <a class="inspiration" href="https://penguinmod.com/">PenguinMod</a>.</h2>
-            <a style="text-decoration: none;" href="https://gaiawindwave90.github.io/Gaia-Zone/editor.html"><button><img src="https://gaiamod-main.github.io/Gaia-Home/9230ca76d29cd26a9cb6.svg"/>Let's go!</button></a>
+            <h2>Template inspired by <a class="inspiration" href="https://penguinmod.com/">PenguinMod</a>, a mod of <a
+class="inspiration-tw" href="https://turbowarp.org/">TurboWarp</a>.</h2>
+            <a style="text-decoration: none;" href="https://gaiawindwave90.github.io/Gaia-Zone/editor.html"><button><img src="https://gaiawindwave90.github.io/Gaia-Zone/img/icons/code.svg"/>Let's go!</button></a>
 </div>
 
 <div class="container-fluid bg-section text-center">
@@ -85,16 +86,15 @@ href="https://gaiawindwave90.github.io/Gaia-Zone/css/main.css">
     <h4 class="mt-4">Date</h4>
          <p><span id="currentDate"></span></p>
       <p><span id="time"></span></p>
-
 <!--
-
 <hr>
 	  <div id="recentCommits">
     <h4 class="mt-4">Latest Commits</h4>
      <ul></ul>
     </div>
+
     <script>
-//I had no hope so I stole Dinosaurmod's Github script
+//I had no hope so I copied a Github script from Dinosaurmod lol
             $.get("https://api.github.com/repos/gaiawindwave90/Gaia-Zone/commits", function(data) {
             // Display recent commits in a section
             var commitsSection = $("#recentCommits");
@@ -116,42 +116,19 @@ href="https://gaiawindwave90.github.io/Gaia-Zone/css/main.css">
             
           });
     </script>
-        -->
-
+    -->
     </div>
+	
     <div class="col-sm-8">
+    
 <h2>What's New?</h2>
  <h3 class="mt-5">TITLE HEADING</h3>
- <img src="https://images.rawpixel.com/image_social_landscape/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGQxMDYtMDUwLWNoaW0uanBn.jpg" style="width:30%" alt="Kiwi">
-      <h5>Title description, Sep 2, 2020</h5>
+ <img src="https://gaiawindwave90.github.io/Gaia-Zone/img/art/FirstCreation.png" style="width:50%" alt="Yay">
+      <i><h5>Posted on April 9, 2026 by gaiawindwave90</h5></i>
       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-
-  <div class="row">
-    <div class="col-sm-4">
-<h3>What is it??</h3>
-<img src="https://images.rawpixel.com/image_social_landscape/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGQxMDYtMDUwLWNoaW0uanBn.jpg" style="width:100%" alt="Kiwi">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      
     </div>
-    <div class="col-sm-4">
-      <h3>What Am I?</h3>
-<img src="https://www.w3schools.com/bootstrap/birds3.jpg" style="width:100%" alt="Pelicans">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Where To See Me?</h3> 
-<img src="https://images.unsplash.com/photo-1592222285443-402e8068518f?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8" style="width:100%" alt="Owl">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-  </div>
-	  
-      <hr>
- <h3 class="mt-5">TITLE HEADING</h3>
-      <h5>Title description, Sep 2, 2020</h5>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    </div>
+	
   </div>
 </div>
       <hr>
@@ -159,31 +136,36 @@ href="https://gaiawindwave90.github.io/Gaia-Zone/css/main.css">
 <footer class="container-fluid small text-center">
     <h2>This website was made possible by a contribution from people like me. Thank you.</h2>
   <div class="row">
-    <div class="col-sm-4">
+    <div class="col-sm-6">
 <h4>Website</h4>
-                <a href="https://gaiawindwave90.github.io/Gaia-Zone/editor.html">Editor</a> | 
-                <a class="disabled" href="#">About this site</a> | 
-                <a class="disabled" href="#">Credits</a> | 
-                <a href="https://github.com/gaiawindwave90/Gaia-Zone">Source Code</a>
+<ul>
+<li><a class="disabled" href="#">About this site</a></li>
+<li><a class="disabled" href="#">Credits</a></li>
+<li><a class="disabled" href="#">Report this issue</a></li>
+<li><a href="https://gaiawindwave90.github.io/Gaia-Zone/editor.html">Editor</a></li>
+<li><a href="https://github.com/gaiawindwave90/Gaia-Zone">Source Code</a></li>
+</ul>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-6">
               <h4>Social Accounts</h4>
-                <a href="https://www.facebook.com/CrystalMae1990">FaceBook</a> | 
-                <a href="https://twitter.com/CrystalF_1990">X</a> | 
-                <a href="https://www.youtube.com/@GaiaWindWave90">YouTube</a> | 
-                <a href="https://github.com/gaiawindwave90">GitHub</a> | 
-                <a href="https://codetorch.net/en/users/MB1990">CodeTorch</a> | 
-                <a href="https://sofurry.com/u/maebug1990">SoFurry (WARNING: NSFW)</a> | 
-                <a href="https://www.weasyl.com/~gaia">Weasyl (WARNING: NSFW)</a>
-    </div>
-    <div class="col-sm-4">
-<h4>Tips:</h4>
-                <div id="random"></div>
+<ul>
+<li><a href="https://www.facebook.com/CrystalMae1990">FaceBook</a></li>
+<li><a href="https://twitter.com/CrystalF_1990">X</a></li>
+<li><a href="https://www.youtube.com/@GaiaWindWave90">YouTube</a></li>
+<li><a href="https://github.com/gaiawindwave90">GitHub</a></li>
+<li><a href="https://codetorch.net/en/users/MB1990">CodeTorch</a></li>
+<li><a href="https://sofurry.com/u/maebug1990">SoFurry (WARNING: NSFW)</a></li>
+<li><a href="https://www.weasyl.com/%7Egaia">Weasyl (WARNING: NSFW)</a></li>
+</ul>
     </div>
   </div>
+  <hr>
+<b>Tips:</b> <div id="random"></div>
+<hr>
     <p>WARNING: This website might contain an inappropriated stuff and may not be suitable for younger visitors.</p>
     <p>🌈Open your door to the creation you make.🌈</p>
-    <p>&copy;<span id="year"></span> GAIA. Template is inspired by PenguinMod, a mod of TurboWarp. Bootstrap 5 Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a>. Hosted on <a href="https://github.com/">GitHub</a>.</p>
+    <p>&copy;<span id="year"></span> GAIA. Template is inspired by <a class="inspiration" href="https://penguinmod.com/">PenguinMod</a>, a mod of <a
+class="inspiration-tw" href="https://turbowarp.org/">TurboWarp</a>. Bootstrap 5 Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a>. Hosted on <a href="https://github.com/">GitHub</a>.</p>
 </footer>
 <script src="https://gaiawindwave90.github.io/Gaia-Zone/js/main.js"></script>
 
