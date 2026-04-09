@@ -3,6 +3,7 @@
 	 --gaiacolor-secondary:hsla(240, 65%, 55%, 1);
 	 --gaiacolor-tertiary:hsla(240, 65%, 60%, 1);
 	 --gaiacolor-section:hsla(240, 65%, 65%, 1);
+	 --gaiacolor-input:hsla(240, 65%, 35%, 1);
 	 --bg-color:#ffffff;
 	 --text-color:#111111;
 	 --link-color:#ACAAEC;
@@ -20,6 +21,7 @@
 	 --gaiacolor-secondary:hsla(240, 65%, 50%, 1);
 	 --gaiacolor-tertiary:hsla(240, 65%, 55%, 1);
 	 --gaiacolor-section:hsla(240, 65%, 25%, 1);
+	 --gaiacolor-input:hsla(240, 65%, 20%, 1);
 	 --bg-color:#111111;
 	 --text-color:#ffffff;
 	 --link-color:#7E7BEC;
@@ -33,7 +35,7 @@
 }
 
 .searchinput { 
-    background-color: var(--gaiacolor-tertiary); /* ??? */
+    background-color: var(--gaiacolor-input); /* ??? */
     color: white;
   }
 
