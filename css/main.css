@@ -88,6 +88,12 @@
     color: #00C3FF;
   }
   
+       .inspiration-tw{
+    text-decoration: underline;		  
+    cursor: pointer;
+    color: #FF4C4C;
+  }
+  
   .imageIcon img {
             vertical-align: middle; /* Align the image vertically */
             transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
