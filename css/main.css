@@ -75,6 +75,7 @@
 					cursor:default
 					}
 					
+					
   
        .btn-gaia:hover { 
     background-color: var(--gaiacolor); /* ??? */
@@ -131,6 +132,16 @@ background-color: var(--footer-bg);
       padding: 15px;
       list-style: none;
     }
+	
+  footer a.disabled,.footer a:disabled{
+					color:var(--gaiacolor-secondary);
+					pointer-events:none;
+					cursor:default
+					}
+					
+  footer a{
+					color:var(--gaiacolor);
+					}
         
      /* Set black background color, white text and some padding */
     .bg-section {
