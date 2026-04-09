@@ -110,8 +110,23 @@
     footer {
 background-color: var(--footer-bg);
     color: var(--footer-color);
-      padding: 15px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    width: 100%;
+    flex: 0 0 20%;
     }
+	
+	footer a {
+    color: var(--gaiacolor);
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 5px;
+}
     
     
      /* Set black background color, white text and some padding */
