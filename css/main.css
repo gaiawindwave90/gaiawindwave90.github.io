@@ -83,7 +83,8 @@
   
       .inspiration{
     text-decoration: underline;		  
-    color: var(--link-color);
+    cursor: pointer;
+    color: #00C3FF;
   }
   
   .imageIcon img {
