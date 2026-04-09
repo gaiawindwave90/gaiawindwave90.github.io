@@ -31,6 +31,7 @@
         ul, li {
             list-style: none;
           }
+		  
 
    .bg-menu { 
     background-color: var(--gaiacolor); /* ??? */
@@ -122,9 +123,9 @@
 background-color: var(--footer-bg);
     color: var(--footer-color);
       padding: 15px;
+      list-style: none;
     }
-    
-    
+        
      /* Set black background color, white text and some padding */
     .bg-section {
     background: var(--gaiacolor-section);
