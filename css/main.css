@@ -28,7 +28,7 @@
   /* Override variables */
 }
 
-input { 
+.searchinput { 
     background-color: var(--gaiacolor-tertiary); /* ??? */
     color: white;
   }
