@@ -139,13 +139,13 @@ background-color: var(--footer-bg);
     }
 	
   footer a.disabled,.footer a:disabled{
-					color:var(--gaiacolor-secondary);
+					color:var(--link-color-disabled);
 					pointer-events:none;
 					cursor:default
 					}
 					
   footer a{
-					color:var(--gaiacolor);
+					color:var(--link-color);
 					}
         
      /* Set black background color, white text and some padding */
