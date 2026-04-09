@@ -7,6 +7,8 @@
 	 --text-color:#111111;
 	 --link-color:#ACAAEC;
 	 --link-color-disabled:#A3A0EC;
+	 --footer-link-color:#0717C7;
+	 --footer-link-color-disabled:#1F2BAD;
 	 --footer-bg:#CFD2FF;
 	 --footer-color:#000000;
 	 --theme-image:url('https://raw.githubusercontent.com/ElectraMod/ElectraMod-Home/ee8edc1664e6b313438ff4ffd3271788ec81e9d8/static/moon.svg');
@@ -22,6 +24,8 @@
 	 --text-color:#ffffff;
 	 --link-color:#7E7BEC;
 	 --link-color-disabled:#6D6AEC;
+	 --footer-link-color:#A2A7E6;
+	 --footer-link-color-disabled:#9599C9;
 	 --footer-bg:#00058A;
 	 --footer-color:#ffffff;
      --theme-image:url('https://raw.githubusercontent.com/ElectraMod/ElectraMod-Home/ee8edc1664e6b313438ff4ffd3271788ec81e9d8/static/sun.svg');
@@ -139,13 +143,13 @@ background-color: var(--footer-bg);
     }
 	
   footer a.disabled,.footer a:disabled{
-					color:var(--link-color-disabled);
+					color:var(--footer-link-color-disabled);
 					pointer-events:none;
 					cursor:default
 					}
 					
   footer a{
-					color:var(--link-color);
+					color:var(--footer-link-color);
 					}
         
      /* Set black background color, white text and some padding */
