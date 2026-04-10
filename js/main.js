@@ -25,6 +25,16 @@ function openSecrets(secretName) {
   document.getElementById(secretName).style.display = "block";  
 }
 
+
+function textSwap() {
+  var x = document.getElementById("myDIV");
+  if (x.innerHTML === "GaiaMod") {
+    x.innerHTML = "Zero-Gemini";
+  } else {
+    x.innerHTML = "GaiaMod";
+  }
+}
+
   document.getElementById("year").innerHTML = new Date().getFullYear();
   
   
