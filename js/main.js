@@ -29,7 +29,7 @@ function openSecrets(secretName) {
 function textSwap() {
   var x = document.getElementById("myDIV");
   if (x.innerHTML === "GaiaMod") {
-    x.innerHTML = "Zero-Gemini";
+    x.innerHTML = "Versolot";
   } else {
     x.innerHTML = "GaiaMod";
   }
@@ -116,7 +116,7 @@ themeToggle.addEventListener('click', () => {
 
 function redirect() {
   var searchitem = document.getElementById("search");
-  var url = "https://www.google.com/search?q=" + searchitem.value + " site:https://gaiawindwave90.github.io/Gaia-Zone/";
+  var url = "https://penguinmod.com/search?q=" + searchitem.value;
   window.open(url,"");
 }
 
