@@ -49,7 +49,7 @@
 		  
 
 .bg-container {
-  background-color: var(--container-color);
+  background-color: var(--container-bg);
   color: var(--container-color);
 }
 
