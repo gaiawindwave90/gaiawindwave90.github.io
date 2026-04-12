@@ -8,6 +8,8 @@
 	 --text-color:#111111;
 	 --link-color:#ACAAEC;
 	 --link-color-disabled:#A3A0EC;
+	 --container-bg:#ffffff;
+	 --container-color:#111111;
 	 --footer-link-color:hsla(240, 65%, 45%, 1);
 	 --footer-link-color-disabled:hsla(240, 65%, 45%, 0.4);
 	 --footer-bg:#CFD2FF;
@@ -26,6 +28,8 @@
 	 --text-color:#ffffff;
 	 --link-color:#7E7BEC;
 	 --link-color-disabled:#6D6AEC;
+	 --container-bg:#262626;
+	 --container-color:#ffffff;
 	 --footer-link-color:hsla(240, 65%, 85%, 1);
 	 --footer-link-color-disabled:hsla(240, 65%, 85%, 0.4);
 	 --footer-bg:#00058A;
@@ -43,6 +47,11 @@
             list-style: none;
           }
 		  
+
+.bg-container {
+  background-color: var(--container-color);
+  color: var(--container-color);
+}
 
    .bg-menu { 
     background-color: var(--gaiacolor); /* ??? */
