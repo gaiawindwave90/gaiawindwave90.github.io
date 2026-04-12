@@ -36,7 +36,6 @@ function textSwap() {
 }
 
   document.getElementById("year").innerHTML = new Date().getFullYear();
- 
   
   
   	var msg = new Array();
