@@ -38,7 +38,7 @@ function textSwap() {
   document.getElementById("year").innerHTML = new Date().getFullYear();
  
 
- //April Fools shit.
+ //April Fools shit. Credit to an AI in Google.
   var today = new Date();
 if (today.getFullYear() === 2027 && today.getMonth() === 3 && today.getDate() === 1) {
     window.location.href = "https://versolot.github.io/";
