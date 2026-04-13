@@ -1,1 +1,1 @@
-export const BrandName = "Gaia-Zone";
+export const BrandName = "Gaia Zone";

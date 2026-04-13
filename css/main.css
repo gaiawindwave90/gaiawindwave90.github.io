@@ -14,7 +14,7 @@
 	 --footer-link-color-disabled:hsla(240, 65%, 45%, 0.4);
 	 --footer-bg:#CFD2FF;
 	 --footer-color:#000000;
-	 --theme-image:url('https://raw.githubusercontent.com/ElectraMod/ElectraMod-Home/ee8edc1664e6b313438ff4ffd3271788ec81e9d8/static/moon.svg');
+	 --theme-image:url('https://gaiawindwave90.github.io/img/icons/moon.svg');
   /* Add other variables */
 }
 
@@ -34,7 +34,7 @@
 	 --footer-link-color-disabled:hsla(240, 65%, 85%, 0.4);
 	 --footer-bg:#00058A;
 	 --footer-color:#ffffff;
-     --theme-image:url('https://raw.githubusercontent.com/ElectraMod/ElectraMod-Home/ee8edc1664e6b313438ff4ffd3271788ec81e9d8/static/sun.svg');
+     --theme-image:url('https://gaiawindwave90.github.io/img/icons/sun.svg');
   /* Override variables */
 }
 
